@@ -5,9 +5,9 @@
 function LiveDemo() {
   
   var message;
-  message = "Welcome to Linkedn Academey"
+  message = "Welcome to LinkedIn Academy"
   
   var errorMessage;
-  errorMessage = "Cannott complete the action!";
+  errorMessage = "Cannot complete the action!";
 
 }

@@ -1,4 +1,4 @@
-
+const PI = 3.141592;
 
 
 function CalculatePaintNeeded(paintPerUnit, radius) {
@@ -8,17 +8,21 @@ function CalculatePaintNeeded(paintPerUnit, radius) {
 
 
 
-  var ar;
-  ar = 3.141592 * radius * radius;
+  var area;
+  area = calculateArea(radius);
 
-  return ar / paintPerUnit;
+  return area / paintPerUnit;
 
+}
+
+function calculateArea(radius) {
+  return PI * radius * radius;
 }
 
 function ReDrawChangedElements() {
   // similar code here
   var radius = 50;
-  var ar;
-  ar = 3.141592 * radius * radius;
+  var area;
+  area = calculateArea(radius);
 
 }
